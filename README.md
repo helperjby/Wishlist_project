@@ -1,12 +1,14 @@
 [![image](https://user-images.githubusercontent.com/95989232/166428931-1ee9948f-cc1c-42a2-b0a9-47dae9b8b90d.png)](https://www.kaggle.com/competitions/instacart-market-basket-analysis/overview)
 
-## 팀 소개
+## 위시리스트 팀 소개
 |팀원|역할|
 |---|:---:|
 |박산들||
 |김아네스||
 |장병용||
 |정경환||
+
+<br/>
 
 ## 일정표
 |단계|내용|M1|M2|H1|H2|H3|H4|H5|H6|  
