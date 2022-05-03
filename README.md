@@ -1,5 +1,4 @@
-# [Instacart Market Basket Analysis](https://www.kaggle.com/competitions/instacart-market-basket-analysis/overview)
-![image](https://user-images.githubusercontent.com/95989232/166428931-1ee9948f-cc1c-42a2-b0a9-47dae9b8b90d.png)
+[![image](https://user-images.githubusercontent.com/95989232/166428931-1ee9948f-cc1c-42a2-b0a9-47dae9b8b90d.png)](https://www.kaggle.com/competitions/instacart-market-basket-analysis/overview)
 
 ## 팀 소개
 |팀원|역할|
