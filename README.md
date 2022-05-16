@@ -56,7 +56,7 @@ Instacart는 미국과 캐나다에서 웹과 앱을 통해 식료품 배달과 
 
 ## 탐색적 데이터 분석
 
-추후 업데이트 예정
+[링크](https://github.com/Agile-Soda-Instacart-Team/Wishlist/blob/main/EDA/EDA_wishlist.ipynb)
 
 <br/>
 
