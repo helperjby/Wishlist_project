@@ -196,5 +196,4 @@ D_mean_days_since_prior_order	평균 재주문 기간
 * 앙상블 모델을 적용하여 성능 개선
 
 ## 프로젝트를 진행하며 아쉬웠던 점
-![image](https://user-images.githubusercontent.com/69462995/172632558-c5ddd060-60a1-4520-9a93-b50d722269a5.png)
-
+![image](https://user-images.githubusercontent.com/69462995/172632768-60e968b0-eca1-4e0a-a451-633deb0cac58.png)
