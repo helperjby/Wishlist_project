@@ -39,6 +39,7 @@ Instacart는 미국과 캐나다에서 웹과 앱을 통해 식료품 배달과 
 <br/>
 
 ## [데이터 설명](https://www.kaggle.com/competitions/instacart-market-basket-analysis/data)
+***
 
 - aisles: 제품의 소 분류가 총 134개 나열되어 있습니다.
 - Departments: 이 파일에는 제품의 대 분류가 총 21개 나열되어 있습니다.
@@ -47,7 +48,6 @@ Instacart는 미국과 캐나다에서 웹과 앱을 통해 식료품 배달과 
     - Order_dow(day of week): 0, 1, 2, 3, 4, 5, 6이 각각 토일월화수목금으로 매핑할 수 있습니다. 토요일과 일요일 주문이 다수를 차지합니다.
     - Order_hour_of_day: 대부분의 주문은 낮 시간에 이루어집니다.
     - Days_since_prior_order: 이전 주문 이후 경과 일수를 보면 7, 14, 21, 30이 많으므로 일주일에 한 번 주문하는 추이를 보입니다.
-    - '요일'과 '시간' 사이의 히트맵을 기반으로 하면 토요일 오후와 일요일 오전이 주문이 가장 많은 시간이라고 말할 수 있습니다.
 - order_products_prior: 이 파일은 주문한 제품과 장바구니에 추가된 순서에 대한 정보를 제공하며 제품이 재 주문 되었는지 여부도 알려줍니다. 이 파일에는 총 49677개의 제품이 주문된 총 3214874개의 주문 정보가 있습니다.
 - order_products_train: order_products_prior파일과 마찬가지로 주문한 제품과 장바구니에 추가된 순서에 대한 정보와 제품이 재 주문 되었는지 여부를 알려줍니다. 이 파일에는 총 39123개의 제품이 주문된 총 131209개의 주문 정보가 있습니다.
 - Products: 이 파일에는 총 49688개의 제품 목록과 해당 카테고리 및 부서가 포함되어 있습니다. 다른 카테고리와 다른 부서에 있는 제품의 수는 다릅니다.
@@ -56,7 +56,15 @@ Instacart는 미국과 캐나다에서 웹과 앱을 통해 식료품 배달과 
 
 ## 탐색적 데이터 분석
 
-[링크](https://github.com/Agile-Soda-Instacart-Team/Wishlist/blob/main/EDA/EDA_wishlist.ipynb)
+데이터 설명 단계에서 확인한 특징들을 토대로 EDA와 가설검정을 진행했습니다.
+
+![image](https://user-images.githubusercontent.com/69462995/172520774-1098403a-a62e-4c96-a70a-0430e17db306.png)
+
+### 가설1. 요일과 시간에 따른 고객구매패턴이 있는지 확인
+![image](https://user-images.githubusercontent.com/69462995/172520920-fb29b811-db73-47b9-8024-743597b2183d.png)
+![image](https://user-images.githubusercontent.com/69462995/172520935-662b96b5-f025-4b58-af81-e76ce3c371f5.png)
+
+
 
 <br/>
 
