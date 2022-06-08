@@ -95,7 +95,10 @@ Instacart는 미국과 캐나다에서 웹과 앱을 통해 식료품 배달과 
 * 선호 키워드들의 재주문율 확인
 ![image](https://user-images.githubusercontent.com/69462995/172523553-ca9d92be-e172-4bc0-be44-f3f6f7f4ef91.png)
 
+<br/>
 
+## 최종 Feature 선택
+https://www.notion.so/modulabs/b6605307559448c6b4ef756e797ee1c7#1fa84e4d7be84f1e8d56aa8dc492cb17
 
 <br/>
 
