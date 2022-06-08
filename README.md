@@ -106,6 +106,57 @@ A : 소분류 정보
 D : 대분류 정보
 ```
 
+### 유저 구매내역 Feature
+```
+UP_total_orders	유저별 해당 제품 총 주문 수
+UP_total_reorders	유저별 해당 제품 총 재주문 수
+UP_mean_cart_order	유저별 해당 제품 평균 장바구니 순위
+UP_reorder_ratio	해당 제품을 처음 구매한 이후 재주문이 가능한 기간(주문수)동안의 재주문 율
+UP_order_percentage	유저의 전체 주문 중 해당 제품을 구매한 비율
+UP_order_days	해당 제품을 구매한 기간
+UP_mean_days_since_prior_order	평균 재주문 기간
+order-3,2,1	마지막 3번의 주문에서 재주문 여부 (구매 된적이 없다면 -1)
+```
+
+### 유저 별 정보 Feature
+```
+U_total_orders	유저별 총 주문 수
+U_total_products	총 구매 제품 수
+U_unique_products	총 구매 제품 종류 수
+U_total_reorders	총 재주문 수
+U_unique_reordered_products	총 재주문 제품 종류 수
+U_avg_basket_size	주문당 평균 구매 제품 수
+U_avg_reorder_in_order	주문당 평균 재구매 제품 비율
+U_order_days	총 주문 기간
+U_basket_size_order	마지막 3개의 주문 구매 제품 수
+U_re_in_order	마지막 3개의 주문 재주문 제품 포함 비율
+```
+
+### 제품 별 정보 Feature
+P_total_orders	총 판매 수
+P_unique_users	구매한 유저 수
+P_total_reorders	총 재주문 수
+P_mean_cart_order	평균 장바구니 순위
+P_reorder_rate	재주문율
+P_sum_order_days	총 구매 기간
+P_mean_order_days	평균 구매 기간
+P_days_since_prior_order	평균 재주문 기간
+P_keyword 제품 이름에 들어가는 키워드 별로 그룹화
+
+### 소분류(aisle) Feature
+A_total_orders	총 판매 수
+A_total_reorders	총 재주문 수
+A_reorder_rate	재주문 율
+A_mean_cart_order	평균 장바구니 순위
+A_mean_days_since_prior_order	평균 재주문 기간
+
+### 대분류(department) Feature
+D_total_orders	총 판매 수
+D_total_reorders	총 재주문 수
+D_reorder_rate	재주문 율
+D_mean_cart_order	평균 장바구니 순위
+D_mean_days_since_prior_order	평균 재주문 기간
+
 <br/>
 
 ## ML 모델
