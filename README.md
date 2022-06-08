@@ -97,8 +97,14 @@ Instacart는 미국과 캐나다에서 웹과 앱을 통해 식료품 배달과 
 
 <br/>
 
-## 최종 Feature 선택
-https://www.notion.so/modulabs/b6605307559448c6b4ef756e797ee1c7#1fa84e4d7be84f1e8d56aa8dc492cb17
+## 최종 Feature
+```
+UP : 유저 구매내역
+U : 유저 별 정보
+P : 제품 별 정보
+A : 소분류 정보
+D : 대분류 정보
+```
 
 <br/>
 
