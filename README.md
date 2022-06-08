@@ -144,19 +144,22 @@ P_days_since_prior_order	평균 재주문 기간
 P_keyword 제품 이름에 들어가는 키워드 별로 그룹화
 
 ### 소분류(aisle) Feature
+```
 A_total_orders	총 판매 수
 A_total_reorders	총 재주문 수
 A_reorder_rate	재주문 율
 A_mean_cart_order	평균 장바구니 순위
 A_mean_days_since_prior_order	평균 재주문 기간
+```
 
 ### 대분류(department) Feature
+```
 D_total_orders	총 판매 수
 D_total_reorders	총 재주문 수
 D_reorder_rate	재주문 율
 D_mean_cart_order	평균 장바구니 순위
 D_mean_days_since_prior_order	평균 재주문 기간
-
+```
 <br/>
 
 ## ML 모델
