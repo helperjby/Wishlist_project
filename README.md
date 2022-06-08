@@ -63,8 +63,10 @@ Instacart는 미국과 캐나다에서 웹과 앱을 통해 식료품 배달과 
 ### 가설1. 요일과 시간에 따른 고객 구매패턴이 있는지 확인
 * 요일별 트랜드 랭킹을 확인하여 요일과 제품 판매량의 변화 체크
 ![image](https://user-images.githubusercontent.com/69462995/172520920-fb29b811-db73-47b9-8024-743597b2183d.png)
+
 * 시간별 트랜드 랭킹을 확인하여 시간과 제품 판매량의 변화 체크
 ![image](https://user-images.githubusercontent.com/69462995/172520935-662b96b5-f025-4b58-af81-e76ce3c371f5.png)
+
 * 특정 요일 & 시간에만 주문을 진행하는 유저가 있는지 확인
 ![image](https://user-images.githubusercontent.com/69462995/172521868-87332421-179a-4796-877c-1afe94e83e0a.png)
 
@@ -72,14 +74,26 @@ Instacart는 미국과 캐나다에서 웹과 앱을 통해 식료품 배달과 
 ### 가설2. Order에서 구매패턴 확인
 * order_number가 높은 주문일수록 재구매율의 변화량 체크
 ![image](https://user-images.githubusercontent.com/69462995/172521479-81b18df9-51c4-4648-9e18-1db471019eda.png)
+
 * order_number가 40이 넘는 회원들의 요일-시간 패턴 확인
 ![image](https://user-images.githubusercontent.com/69462995/172522206-6e73b080-dc18-4b98-bde7-90e5de5396aa.png)
+
 * days_since_prior_order와 재주문율의 변화량 체크
 * ![image](https://user-images.githubusercontent.com/69462995/172522432-7e5406d5-af61-454f-beea-c124fc9a5b63.png)
 
 ### 가설3. 고객별 구매패턴 확인하기
 * 유저마다 선호하는 제품이 있는지 확인
 ![image](https://user-images.githubusercontent.com/69462995/172522530-f435c08c-6e98-4bc6-867b-05f8cc61c0f6.png)
+
+* 같은 제품을 선호하는 유저들은 비슷한 구매패턴을 보이는지 확인
+![image](https://user-images.githubusercontent.com/69462995/172523104-b4677cb6-0a1d-4cf2-a897-2086f9dc2222.png)
+
+### 가설4. 제품별 구매패턴 확인하기
+* 고객들이 선호하는 제품 키워드가 있는지 워드 클라우드로 확인
+![image](https://user-images.githubusercontent.com/69462995/172523495-d60698a1-1fa0-4766-bbfd-42f340ac9d4c.png)
+
+* 선호 키워드들의 재주문율 확인
+![image](https://user-images.githubusercontent.com/69462995/172523553-ca9d92be-e172-4bc0-be44-f3f6f7f4ef91.png)
 
 
 
