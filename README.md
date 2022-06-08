@@ -164,6 +164,21 @@ D_mean_days_since_prior_order	평균 재주문 기간
 ```
 <br/>
 
-## ML 모델
+## 데이터 준비
+최종 선택한 feature들을 모델에 넣기 위해 관련된 모든 정보를 보여주는 데이터 프레임을 준비했습니다.
+이 데이터 프레임은 
+1. 어떤 정보를 담고 있는지
+2. 용량이 커서 줄였다면 어떤 방식을 사용했는지
+3. 최종 데이터 프레임의 명칭
 
-대용량 데이터를 처리하고 병렬화할 수 있으며 변수 중요도를 제공하는 XGBoost모델을 선정하였습니다. 성능지표는 F1 score를 사용합니다.
+## ML 모델
+저희는 다양한 ML 기법 중 트리 기반의 LGBM, XGBoost, Catboost 모델로 접근했습니다.
+결정트리 알고리즘은 시각적으로 명시적인 기법으로 의사결정 과정과 결정된 의사를 보여주는데 사용하지만 다른 ML 알고리즘에 비해 낮은 성능을 보여
+이를 gradient boosting 기법을 사용하여 보완합니다.
+다양한 연구사례들이 분류와 회귀의 영역에서 gradient boosting 기반의 트리 모델이 뛰어난 성능을 보인다는 것을 입증하여 저희도 이를 베이스 모델로 선정했습니다.
+
+### LGBM vs XGBoost vs Catboost
+![image](https://user-images.githubusercontent.com/69462995/172525680-b7450ba2-39ca-4624-befe-cd15f5320ecf.png)
+
+### 최종 스코어
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b92097ae-5bbc-4027-a201-d5db182c8f25/Untitled.png)
