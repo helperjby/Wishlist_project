@@ -173,8 +173,7 @@ D_mean_days_since_prior_order	평균 재주문 기간
 
 ## ML 모델
 저희는 다양한 ML 기법 중 트리 기반의 LGBM, XGBoost, Catboost 모델로 접근했습니다.  
-결정트리 알고리즘은 시각적으로 명시적인 기법으로 의사결정 과정과 결정된 의사를 보여주는데 사용하지만 다른 ML 알고리즘에 비해 낮은 성능을 보여  
-이를 gradient boosting 기법을 사용하여 보완합니다.  
+결정트리 알고리즘은 시각적으로 명시적인 기법으로 의사결정 과정과 결정된 의사를 보여주는데 사용하지만 다른 ML 알고리즘에 비해 낮은 성능을 보여 이를 gradient boosting 기법을 사용하여 보완합니다.  
 다양한 연구사례들이 분류와 회귀의 영역에서 gradient boosting 기반의 트리 모델이 뛰어난 성능을 보인다는 것을 입증하여 저희도 이를 베이스 모델로 선정했습니다.  
 
 ### LGBM vs XGBoost vs Catboost
