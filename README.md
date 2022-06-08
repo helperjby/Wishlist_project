@@ -182,3 +182,18 @@ D_mean_days_since_prior_order	평균 재주문 기간
 
 ### 최종 스코어
 ![image](https://user-images.githubusercontent.com/69462995/172526479-52a3f6bd-a967-433a-bb7e-70e01460dab6.png)
+
+## 개선점
+1. EDA 관련
+* 제품간 유사도 확인(Aprior 등..)
+* 좀 더 직관적인 시각화 도구 고민
+2. Feature selection 관련
+* 좀 더 다양한 각도에서의 접근과 피쳐생성
+* 알고리즘을 활용해 차원 축소
+3. Modeling 관련
+* SMOTE 등 오버샘플링 기법을 적용하여 데이터의 불균형 해소
+* 효율적인 탐색 프로세스를 적용하여 하이퍼파라미터 조정
+* 앙상블 모델을 적용하여 성능 개선
+
+## 프로젝트를 진행하며 아쉬웠던 점
+![image](https://user-images.githubusercontent.com/69462995/172632768-60e968b0-eca1-4e0a-a451-633deb0cac58.png)
