@@ -133,6 +133,7 @@ U_re_in_order	마지막 3개의 주문 재주문 제품 포함 비율
 ```
 
 ### 제품 별 정보 Feature
+```
 P_total_orders	총 판매 수
 P_unique_users	구매한 유저 수
 P_total_reorders	총 재주문 수
@@ -142,6 +143,7 @@ P_sum_order_days	총 구매 기간
 P_mean_order_days	평균 구매 기간
 P_days_since_prior_order	평균 재주문 기간
 P_keyword 제품 이름에 들어가는 키워드 별로 그룹화
+```
 
 ### 소분류(aisle) Feature
 ```
